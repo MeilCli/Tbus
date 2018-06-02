@@ -42,6 +42,23 @@ Github PagesにJsonとして置いてます。
 |||index||int|順番|
 |||hour||int|時|
 
+## ビルド
+必要な環境
+- Visual Studio 2017
+- C# 7.3
+- TypeScript 2.9
+
+### Tbus.Parser.NETCore.Console
+時刻表生成コンソールアプリケーション  
+
+実行に必要な環境
+- .NET Core 2.0
+
+### Tbus.Web
+時刻表を見れるWebサイト
+
+実行に必要な環境
+- モダンなブラウザ(Chromeとか)
 
 ## ライセンス
 under MIT License
