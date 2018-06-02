@@ -4,7 +4,10 @@
 [手抜きWebサイト](https://meilcli.github.io/Tbus/)
 
 ## データ
-Github PagesにJsonとして置いてます。
+Github PagesにJsonとして置いてます。  
+データの形はテーブルにしてますが、以下の2つのファイルを見てもわかると思います。  
+- [kansai_takatuki.json](docs/kansai_takatuki.json)
+- [kansai_takatuki.limited2.json](docs/kansai_takatuki.limited2.json)
 
 |Key||||Type|Value|
 |:--:|:--:|:--:|:--:|:--:|:--:|
