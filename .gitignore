@@ -264,3 +264,7 @@ docs/bin/*
 docs/src/*
 docs/Web.config
 docs/app.js.map
+Tbus.Web/*.js
+Tbus.Web/*.js.map
+Tbus.Web/src/*.js
+Tbus.Web/src/*.js.map
