@@ -21,12 +21,12 @@ Github PagesにJsonとして置いてます。
 |||hour||int|時|
 |||minute||int|分|
 |||destination||string|系統・行先|
-|saturday_table||||Object|平日の時刻表|
+|saturday_table||||Object|土曜の時刻表|
 ||buses|||Array|バスの時間|
 |||hour||int|時|
 |||minute||int|分|
 |||destination||string|系統・行先|
-|sunday_table||||Object|平日の時刻表|
+|sunday_table||||Object|日曜の時刻表|
 ||buses|||Array|バスの時間|
 |||hour||int|時|
 |||minute||int|分|
