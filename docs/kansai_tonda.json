@@ -1,0 +1,425 @@
+{
+  "id": "関西大学 富田方面行き",
+  "created_at": "2018-06-02T13:40:40.132031+09:00",
+  "limited_time_option": null,
+  "weekday_table": {
+    "buses": [
+      {
+        "hour": 6,
+        "minute": 35,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 7,
+        "minute": 1,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 7,
+        "minute": 44,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 8,
+        "minute": 10,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 9,
+        "minute": 5,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 9,
+        "minute": 18,
+        "destination": "11 JR高槻駅北（JR富田駅経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 30,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 9,
+        "minute": 45,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 10,
+        "minute": 40,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 11,
+        "minute": 3,
+        "destination": "11 JR高槻駅北（JR富田駅経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 40,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 12,
+        "minute": 39,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 13,
+        "minute": 7,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 13,
+        "minute": 43,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 14,
+        "minute": 41,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 15,
+        "minute": 20,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 16,
+        "minute": 25,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 16,
+        "minute": 31,
+        "destination": "11 JR高槻駅北（JR富田駅経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 49,
+        "destination": "11 JR高槻駅北（JR富田駅経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 10,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 17,
+        "minute": 38,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 18,
+        "minute": 1,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 18,
+        "minute": 10,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 18,
+        "minute": 30,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 19,
+        "minute": 36,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 19,
+        "minute": 45,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 20,
+        "minute": 16,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 20,
+        "minute": 45,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 21,
+        "minute": 30,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 22,
+        "minute": 31,
+        "destination": "5 JR富田駅"
+      }
+    ]
+  },
+  "saturday_table": {
+    "buses": [
+      {
+        "hour": 7,
+        "minute": 4,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 7,
+        "minute": 46,
+        "destination": "11 JR高槻駅北（JR富田駅経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 10,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 9,
+        "minute": 14,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 9,
+        "minute": 48,
+        "destination": "11 JR高槻駅北（JR富田駅経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 48,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 11,
+        "minute": 49,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 12,
+        "minute": 42,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 13,
+        "minute": 48,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 14,
+        "minute": 39,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 15,
+        "minute": 22,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 15,
+        "minute": 35,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 16,
+        "minute": 28,
+        "destination": "11 JR高槻駅北（JR富田駅経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 2,
+        "destination": "11 JR高槻駅北（JR富田駅経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 29,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 18,
+        "minute": 12,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 19,
+        "minute": 41,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 20,
+        "minute": 51,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 22,
+        "minute": 8,
+        "destination": "5 JR富田駅"
+      }
+    ]
+  },
+  "sunday_table": {
+    "buses": [
+      {
+        "hour": 7,
+        "minute": 46,
+        "destination": "11 JR高槻駅北（JR富田駅経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 48,
+        "destination": "11 JR高槻駅北（JR富田駅経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 27,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 11,
+        "minute": 37,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 12,
+        "minute": 29,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 13,
+        "minute": 37,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 14,
+        "minute": 46,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 15,
+        "minute": 51,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 17,
+        "minute": 2,
+        "destination": "11 JR高槻駅北（JR富田駅経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 49,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 18,
+        "minute": 13,
+        "destination": "11 JR高槻駅北（JR富田駅経由）"
+      },
+      {
+        "hour": 19,
+        "minute": 31,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 20,
+        "minute": 40,
+        "destination": "5 JR富田駅"
+      },
+      {
+        "hour": 22,
+        "minute": 2,
+        "destination": "5 JR富田駅"
+      }
+    ]
+  },
+  "special_days": {},
+  "hour_table": {
+    "indexed_hours": [
+      {
+        "index": 0,
+        "hour": 5
+      },
+      {
+        "index": 1,
+        "hour": 6
+      },
+      {
+        "index": 2,
+        "hour": 7
+      },
+      {
+        "index": 3,
+        "hour": 8
+      },
+      {
+        "index": 4,
+        "hour": 9
+      },
+      {
+        "index": 5,
+        "hour": 10
+      },
+      {
+        "index": 6,
+        "hour": 11
+      },
+      {
+        "index": 7,
+        "hour": 12
+      },
+      {
+        "index": 8,
+        "hour": 13
+      },
+      {
+        "index": 9,
+        "hour": 14
+      },
+      {
+        "index": 10,
+        "hour": 15
+      },
+      {
+        "index": 11,
+        "hour": 16
+      },
+      {
+        "index": 12,
+        "hour": 17
+      },
+      {
+        "index": 13,
+        "hour": 18
+      },
+      {
+        "index": 14,
+        "hour": 19
+      },
+      {
+        "index": 15,
+        "hour": 20
+      },
+      {
+        "index": 16,
+        "hour": 21
+      },
+      {
+        "index": 17,
+        "hour": 22
+      },
+      {
+        "index": 18,
+        "hour": 23
+      },
+      {
+        "index": 19,
+        "hour": 0
+      },
+      {
+        "index": 20,
+        "hour": 1
+      },
+      {
+        "index": 21,
+        "hour": 2
+      }
+    ]
+  }
+}
