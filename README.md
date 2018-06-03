@@ -136,3 +136,5 @@ under MIT License
 using libraries:
 - [AngleSharp](https://github.com/AngleSharp/AngleSharp)
 - [Json.NET](https://github.com/JamesNK/Newtonsoft.Json)
+- [ReactiveProperty](https://github.com/runceel/ReactiveProperty)
+- [Autofac](https://github.com/autofac/Autofac)
