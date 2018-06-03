@@ -15,7 +15,8 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.8.1" />
     <PackageReference Include="ReactiveProperty" Version="5.0.0" />
-    <PackageReference Include="Xamarin.Forms" Version="3.0.0.446417" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
+    <PackageReference Include="Xamarin.Forms.BehaviorsPack" Version="2.0.0" />
   </ItemGroup>
 
   <ItemGroup>
