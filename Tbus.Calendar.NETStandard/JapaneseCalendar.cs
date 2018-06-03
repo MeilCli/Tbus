@@ -8,7 +8,7 @@ namespace Tbus.Calendar.NETStandard
         public List<(DateTime date, DayType dayType)> GetDayTypesOfYear(int year)
         {
             var result = new List<(DateTime, DayType)>();
-            var day = new DateTime(year, 1, 1);
+            var day = new DateTime(year, 1, 1, 0, 0, 0, DateTimeKind.Local);
             while (day.Year == year)
             {
                 result.Add((day, JudgeDayType(day)));
@@ -20,7 +20,7 @@ namespace Tbus.Calendar.NETStandard
         public List<DateTime> GetHolidaysOfYear(int year)
         {
             var result = new List<DateTime>();
-            var day = new DateTime(year, 1, 1);
+            var day = new DateTime(year, 1, 1, 0, 0, 0, DateTimeKind.Local);
             while (day.Year == year)
             {
                 if (isHoliday(day))
