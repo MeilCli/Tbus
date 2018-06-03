@@ -1,0 +1,650 @@
+{
+  "id": "関西大学 高槻方面行き",
+  "created_at": "2018-06-03T11:15:00.7474549+09:00",
+  "limited_time_option": null,
+  "weekday_table": {
+    "buses": [
+      {
+        "hour": 7,
+        "minute": 4,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 7,
+        "minute": 33,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 3,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 48,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 13,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 28,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 4,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 23,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 42,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 3,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 19,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 35,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 51,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 10,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 20,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 30,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 40,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 50,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 4,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 24,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 44,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 4,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 24,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 34,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 37,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 40,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 50,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 15,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 36,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 51,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 10,
+        "destination": "直行・JR高槻駅北"
+      },
+      {
+        "hour": 16,
+        "minute": 15,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 20,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 24,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 28,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 36,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 51,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 5,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 15,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 25,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 43,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 55,
+        "destination": "直行・JR高槻駅北"
+      },
+      {
+        "hour": 17,
+        "minute": 59,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 18,
+        "minute": 3,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 18,
+        "minute": 8,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 18,
+        "minute": 14,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 18,
+        "minute": 34,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 18,
+        "minute": 50,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 19,
+        "minute": 10,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 19,
+        "minute": 40,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 19,
+        "minute": 55,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 20,
+        "minute": 10,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 20,
+        "minute": 35,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 21,
+        "minute": 20,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 21,
+        "minute": 49,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 22,
+        "minute": 19,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      }
+    ]
+  },
+  "saturday_table": {
+    "buses": [
+      {
+        "hour": 7,
+        "minute": 49,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 19,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 39,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 58,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 17,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 37,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 57,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 17,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 37,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 57,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 17,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 37,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 57,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 17,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 37,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 57,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 17,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 37,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 57,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 17,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 37,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 57,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 17,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 37,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 57,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 17,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 37,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 57,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 17,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 37,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 57,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 19,
+        "minute": 44,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 21,
+        "minute": 30,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      }
+    ]
+  },
+  "sunday_table": {
+    "buses": [
+      {
+        "hour": 7,
+        "minute": 59,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 41,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 9,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 41,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 11,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 41,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 11,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 41,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 11,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 41,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 11,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 41,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 11,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 41,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 11,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 41,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 11,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 41,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 11,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      }
+    ]
+  },
+  "special_days": {},
+  "hour_table": {
+    "indexed_hours": [
+      {
+        "index": 0,
+        "hour": 5
+      },
+      {
+        "index": 1,
+        "hour": 6
+      },
+      {
+        "index": 2,
+        "hour": 7
+      },
+      {
+        "index": 3,
+        "hour": 8
+      },
+      {
+        "index": 4,
+        "hour": 9
+      },
+      {
+        "index": 5,
+        "hour": 10
+      },
+      {
+        "index": 6,
+        "hour": 11
+      },
+      {
+        "index": 7,
+        "hour": 12
+      },
+      {
+        "index": 8,
+        "hour": 13
+      },
+      {
+        "index": 9,
+        "hour": 14
+      },
+      {
+        "index": 10,
+        "hour": 15
+      },
+      {
+        "index": 11,
+        "hour": 16
+      },
+      {
+        "index": 12,
+        "hour": 17
+      },
+      {
+        "index": 13,
+        "hour": 18
+      },
+      {
+        "index": 14,
+        "hour": 19
+      },
+      {
+        "index": 15,
+        "hour": 20
+      },
+      {
+        "index": 16,
+        "hour": 21
+      },
+      {
+        "index": 17,
+        "hour": 22
+      },
+      {
+        "index": 18,
+        "hour": 23
+      },
+      {
+        "index": 19,
+        "hour": 0
+      },
+      {
+        "index": 20,
+        "hour": 1
+      },
+      {
+        "index": 21,
+        "hour": 2
+      }
+    ]
+  }
+}

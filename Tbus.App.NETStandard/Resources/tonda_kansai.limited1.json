@@ -1,0 +1,418 @@
+{
+  "id": "JR富田駅 関西大学方面行き",
+  "created_at": "2018-06-03T11:15:11.3641592+09:00",
+  "limited_time_option": {
+    "start_day": "2018-08-01T00:00:00+09:00",
+    "end_day": "2018-09-20T00:00:00+09:00"
+  },
+  "weekday_table": {
+    "buses": [
+      {
+        "hour": 6,
+        "minute": 20,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 7,
+        "minute": 3,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 7,
+        "minute": 29,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 8,
+        "minute": 20,
+        "destination": "71 関西大学"
+      },
+      {
+        "hour": 8,
+        "minute": 31,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 9,
+        "minute": 35,
+        "destination": "75 萩谷総合公園"
+      },
+      {
+        "hour": 9,
+        "minute": 55,
+        "destination": "71 関西大学"
+      },
+      {
+        "hour": 10,
+        "minute": 22,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 11,
+        "minute": 10,
+        "destination": "71 関西大学"
+      },
+      {
+        "hour": 11,
+        "minute": 56,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 12,
+        "minute": 30,
+        "destination": "75 萩谷総合公園"
+      },
+      {
+        "hour": 13,
+        "minute": 2,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 13,
+        "minute": 22,
+        "destination": "71 関西大学"
+      },
+      {
+        "hour": 13,
+        "minute": 58,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 14,
+        "minute": 15,
+        "destination": "71 関西大学"
+      },
+      {
+        "hour": 14,
+        "minute": 45,
+        "destination": "75 萩谷総合公園"
+      },
+      {
+        "hour": 15,
+        "minute": 10,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 15,
+        "minute": 58,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 16,
+        "minute": 45,
+        "destination": "71 関西大学"
+      },
+      {
+        "hour": 17,
+        "minute": 18,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 17,
+        "minute": 38,
+        "destination": "71 関西大学"
+      },
+      {
+        "hour": 18,
+        "minute": 5,
+        "destination": "71 関西大学"
+      },
+      {
+        "hour": 18,
+        "minute": 40,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 19,
+        "minute": 5,
+        "destination": "71 関西大学"
+      },
+      {
+        "hour": 19,
+        "minute": 35,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 20,
+        "minute": 45,
+        "destination": "71 関西大学"
+      },
+      {
+        "hour": 21,
+        "minute": 50,
+        "destination": "73 萩谷"
+      }
+    ]
+  },
+  "saturday_table": {
+    "buses": [
+      {
+        "hour": 6,
+        "minute": 23,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 7,
+        "minute": 5,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 7,
+        "minute": 29,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 8,
+        "minute": 30,
+        "destination": "75 萩谷総合公園"
+      },
+      {
+        "hour": 9,
+        "minute": 5,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 10,
+        "minute": 5,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 11,
+        "minute": 12,
+        "destination": "75 萩谷総合公園"
+      },
+      {
+        "hour": 12,
+        "minute": 1,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 12,
+        "minute": 25,
+        "destination": "71 関西大学"
+      },
+      {
+        "hour": 13,
+        "minute": 7,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 14,
+        "minute": 7,
+        "destination": "75 萩谷総合公園"
+      },
+      {
+        "hour": 14,
+        "minute": 39,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 15,
+        "minute": 7,
+        "destination": "71 関西大学"
+      },
+      {
+        "hour": 15,
+        "minute": 47,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 16,
+        "minute": 21,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 17,
+        "minute": 30,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 18,
+        "minute": 55,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 20,
+        "minute": 9,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 21,
+        "minute": 27,
+        "destination": "73 萩谷"
+      }
+    ]
+  },
+  "sunday_table": {
+    "buses": [
+      {
+        "hour": 7,
+        "minute": 5,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 8,
+        "minute": 10,
+        "destination": "75 萩谷総合公園"
+      },
+      {
+        "hour": 9,
+        "minute": 5,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 9,
+        "minute": 55,
+        "destination": "75 萩谷総合公園"
+      },
+      {
+        "hour": 10,
+        "minute": 55,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 11,
+        "minute": 48,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 12,
+        "minute": 55,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 13,
+        "minute": 30,
+        "destination": "75 萩谷総合公園"
+      },
+      {
+        "hour": 14,
+        "minute": 0,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 15,
+        "minute": 10,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 16,
+        "minute": 21,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 17,
+        "minute": 30,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 18,
+        "minute": 50,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 19,
+        "minute": 59,
+        "destination": "73 萩谷"
+      },
+      {
+        "hour": 21,
+        "minute": 21,
+        "destination": "73 萩谷"
+      }
+    ]
+  },
+  "special_days": {},
+  "hour_table": {
+    "indexed_hours": [
+      {
+        "index": 0,
+        "hour": 5
+      },
+      {
+        "index": 1,
+        "hour": 6
+      },
+      {
+        "index": 2,
+        "hour": 7
+      },
+      {
+        "index": 3,
+        "hour": 8
+      },
+      {
+        "index": 4,
+        "hour": 9
+      },
+      {
+        "index": 5,
+        "hour": 10
+      },
+      {
+        "index": 6,
+        "hour": 11
+      },
+      {
+        "index": 7,
+        "hour": 12
+      },
+      {
+        "index": 8,
+        "hour": 13
+      },
+      {
+        "index": 9,
+        "hour": 14
+      },
+      {
+        "index": 10,
+        "hour": 15
+      },
+      {
+        "index": 11,
+        "hour": 16
+      },
+      {
+        "index": 12,
+        "hour": 17
+      },
+      {
+        "index": 13,
+        "hour": 18
+      },
+      {
+        "index": 14,
+        "hour": 19
+      },
+      {
+        "index": 15,
+        "hour": 20
+      },
+      {
+        "index": 16,
+        "hour": 21
+      },
+      {
+        "index": 17,
+        "hour": 22
+      },
+      {
+        "index": 18,
+        "hour": 23
+      },
+      {
+        "index": 19,
+        "hour": 0
+      },
+      {
+        "index": 20,
+        "hour": 1
+      },
+      {
+        "index": 21,
+        "hour": 2
+      }
+    ]
+  }
+}

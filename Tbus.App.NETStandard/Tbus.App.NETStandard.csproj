@@ -13,6 +13,39 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\kansai_takatuki.json" />
+    <None Remove="Resources\kansai_takatuki.limited1.json" />
+    <None Remove="Resources\kansai_takatuki.limited2.json" />
+    <None Remove="Resources\kansai_tonda.json" />
+    <None Remove="Resources\kansai_tonda.limited1.json" />
+    <None Remove="Resources\kansai_tonda.limited2.json" />
+    <None Remove="Resources\takatuki_kansai.json" />
+    <None Remove="Resources\takatuki_kansai.limited1.json" />
+    <None Remove="Resources\takatuki_kansai.limited2.json" />
+    <None Remove="Resources\tonda_kansai.json" />
+    <None Remove="Resources\tonda_kansai.limited1.json" />
+    <None Remove="Resources\tonda_kansai.limited2.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\kansai_tonda.limited2.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\kansai_takatuki.json" />
+    <EmbeddedResource Include="Resources\kansai_takatuki.limited1.json" />
+    <EmbeddedResource Include="Resources\kansai_takatuki.limited2.json" />
+    <EmbeddedResource Include="Resources\kansai_tonda.json" />
+    <EmbeddedResource Include="Resources\kansai_tonda.limited1.json" />
+    <EmbeddedResource Include="Resources\takatuki_kansai.json" />
+    <EmbeddedResource Include="Resources\takatuki_kansai.limited1.json" />
+    <EmbeddedResource Include="Resources\takatuki_kansai.limited2.json" />
+    <EmbeddedResource Include="Resources\tonda_kansai.json" />
+    <EmbeddedResource Include="Resources\tonda_kansai.limited1.json" />
+    <EmbeddedResource Include="Resources\tonda_kansai.limited2.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Tbus.Calendar.NETStandard\Tbus.Calendar.NETStandard.csproj" />
     <ProjectReference Include="..\Tbus.Parser.NETStandard\Tbus.Parser.NETStandard.csproj" />
   </ItemGroup>

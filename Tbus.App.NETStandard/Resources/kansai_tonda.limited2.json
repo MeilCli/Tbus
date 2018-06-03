@@ -1,0 +1,333 @@
+{
+  "id": "関西大学 富田方面行き",
+  "created_at": "2018-06-03T11:15:05.9211252+09:00",
+  "limited_time_option": {
+    "start_day": "2018-08-13T00:00:00+09:00",
+    "end_day": "2018-08-15T00:00:00+09:00"
+  },
+  "weekday_table": {
+    "buses": []
+  },
+  "saturday_table": {
+    "buses": []
+  },
+  "sunday_table": {
+    "buses": []
+  },
+  "special_days": {
+    "2018-08-13T00:00:00+09:00": {
+      "buses": [
+        {
+          "hour": 7,
+          "minute": 46,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 9,
+          "minute": 48,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 10,
+          "minute": 27,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 11,
+          "minute": 37,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 12,
+          "minute": 29,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 13,
+          "minute": 37,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 14,
+          "minute": 46,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 15,
+          "minute": 51,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 17,
+          "minute": 2,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 17,
+          "minute": 49,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 18,
+          "minute": 13,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 19,
+          "minute": 31,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 20,
+          "minute": 40,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 22,
+          "minute": 2,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        }
+      ]
+    },
+    "2018-08-14T00:00:00+09:00": {
+      "buses": [
+        {
+          "hour": 7,
+          "minute": 46,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 9,
+          "minute": 48,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 10,
+          "minute": 27,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 11,
+          "minute": 37,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 12,
+          "minute": 29,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 13,
+          "minute": 37,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 14,
+          "minute": 46,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 15,
+          "minute": 51,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 17,
+          "minute": 2,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 17,
+          "minute": 49,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 18,
+          "minute": 13,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 19,
+          "minute": 31,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 20,
+          "minute": 40,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 22,
+          "minute": 2,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        }
+      ]
+    },
+    "2018-08-15T00:00:00+09:00": {
+      "buses": [
+        {
+          "hour": 7,
+          "minute": 46,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 9,
+          "minute": 48,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 10,
+          "minute": 27,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 11,
+          "minute": 37,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 12,
+          "minute": 29,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 13,
+          "minute": 37,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 14,
+          "minute": 46,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 15,
+          "minute": 51,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 17,
+          "minute": 2,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 17,
+          "minute": 49,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 18,
+          "minute": 13,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 19,
+          "minute": 31,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 20,
+          "minute": 40,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        },
+        {
+          "hour": 22,
+          "minute": 2,
+          "destination": "11 JR高槻駅北（JR富田駅経由） または 5 JR富田駅"
+        }
+      ]
+    }
+  },
+  "hour_table": {
+    "indexed_hours": [
+      {
+        "index": 0,
+        "hour": 5
+      },
+      {
+        "index": 1,
+        "hour": 6
+      },
+      {
+        "index": 2,
+        "hour": 7
+      },
+      {
+        "index": 3,
+        "hour": 8
+      },
+      {
+        "index": 4,
+        "hour": 9
+      },
+      {
+        "index": 5,
+        "hour": 10
+      },
+      {
+        "index": 6,
+        "hour": 11
+      },
+      {
+        "index": 7,
+        "hour": 12
+      },
+      {
+        "index": 8,
+        "hour": 13
+      },
+      {
+        "index": 9,
+        "hour": 14
+      },
+      {
+        "index": 10,
+        "hour": 15
+      },
+      {
+        "index": 11,
+        "hour": 16
+      },
+      {
+        "index": 12,
+        "hour": 17
+      },
+      {
+        "index": 13,
+        "hour": 18
+      },
+      {
+        "index": 14,
+        "hour": 19
+      },
+      {
+        "index": 15,
+        "hour": 20
+      },
+      {
+        "index": 16,
+        "hour": 21
+      },
+      {
+        "index": 17,
+        "hour": 22
+      },
+      {
+        "index": 18,
+        "hour": 23
+      },
+      {
+        "index": 19,
+        "hour": 0
+      },
+      {
+        "index": 20,
+        "hour": 1
+      },
+      {
+        "index": 21,
+        "hour": 2
+      }
+    ]
+  }
+}

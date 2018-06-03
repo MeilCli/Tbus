@@ -1,0 +1,855 @@
+{
+  "id": "JR高槻駅北 関西大学方面行き",
+  "created_at": "2018-06-03T11:15:07.1465809+09:00",
+  "limited_time_option": null,
+  "weekday_table": {
+    "buses": [
+      {
+        "hour": 6,
+        "minute": 35,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 7,
+        "minute": 5,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 7,
+        "minute": 23,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 7,
+        "minute": 38,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 7,
+        "minute": 55,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 8,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 13,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 18,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 22,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 26,
+        "destination": "直行・関西大学"
+      },
+      {
+        "hour": 8,
+        "minute": 29,
+        "destination": "直行・関西大学"
+      },
+      {
+        "hour": 8,
+        "minute": 32,
+        "destination": "直行・関西大学"
+      },
+      {
+        "hour": 8,
+        "minute": 35,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 40,
+        "destination": "直行・関西大学"
+      },
+      {
+        "hour": 8,
+        "minute": 45,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 55,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 15,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 25,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 35,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 47,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 55,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 0,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 5,
+        "destination": "直行・関西大学"
+      },
+      {
+        "hour": 10,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 15,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 25,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 35,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 43,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 55,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 15,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 35,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 5,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 20,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 30,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 35,
+        "destination": "直行・関西大学"
+      },
+      {
+        "hour": 12,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 35,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 5,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 20,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 40,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 5,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 20,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 35,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 5,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 20,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 35,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 5,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 20,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 35,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 18,
+        "minute": 5,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 18,
+        "minute": 20,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 18,
+        "minute": 35,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 18,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 19,
+        "minute": 5,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 19,
+        "minute": 20,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 19,
+        "minute": 35,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 19,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 20,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 20,
+        "minute": 30,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 20,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 21,
+        "minute": 20,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 21,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 22,
+        "minute": 20,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 23,
+        "minute": 1,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      }
+    ]
+  },
+  "saturday_table": {
+    "buses": [
+      {
+        "hour": 6,
+        "minute": 35,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 7,
+        "minute": 3,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 7,
+        "minute": 21,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 7,
+        "minute": 45,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 8,
+        "minute": 0,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 14,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 28,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 44,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 2,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 20,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 38,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 55,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 30,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 30,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 30,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 30,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 30,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 30,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 30,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 30,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 18,
+        "minute": 10,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 18,
+        "minute": 30,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 18,
+        "minute": 50,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 19,
+        "minute": 10,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 19,
+        "minute": 30,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 19,
+        "minute": 52,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 20,
+        "minute": 15,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 20,
+        "minute": 35,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 21,
+        "minute": 0,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 21,
+        "minute": 30,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 22,
+        "minute": 0,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 22,
+        "minute": 41,
+        "destination": "68 平安女学院大学東"
+      }
+    ]
+  },
+  "sunday_table": {
+    "buses": [
+      {
+        "hour": 6,
+        "minute": 35,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 7,
+        "minute": 16,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 8,
+        "minute": 5,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 33,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 50,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 40,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 40,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 11,
+        "minute": 40,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 40,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 13,
+        "minute": 40,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 40,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
+        "minute": 40,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 40,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
+        "minute": 40,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 18,
+        "minute": 10,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 18,
+        "minute": 40,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 19,
+        "minute": 20,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 19,
+        "minute": 50,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 20,
+        "minute": 20,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 20,
+        "minute": 50,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 21,
+        "minute": 41,
+        "destination": "68 平安女学院大学東"
+      },
+      {
+        "hour": 22,
+        "minute": 41,
+        "destination": "68 平安女学院大学東"
+      }
+    ]
+  },
+  "special_days": {},
+  "hour_table": {
+    "indexed_hours": [
+      {
+        "index": 0,
+        "hour": 5
+      },
+      {
+        "index": 1,
+        "hour": 6
+      },
+      {
+        "index": 2,
+        "hour": 7
+      },
+      {
+        "index": 3,
+        "hour": 8
+      },
+      {
+        "index": 4,
+        "hour": 9
+      },
+      {
+        "index": 5,
+        "hour": 10
+      },
+      {
+        "index": 6,
+        "hour": 11
+      },
+      {
+        "index": 7,
+        "hour": 12
+      },
+      {
+        "index": 8,
+        "hour": 13
+      },
+      {
+        "index": 9,
+        "hour": 14
+      },
+      {
+        "index": 10,
+        "hour": 15
+      },
+      {
+        "index": 11,
+        "hour": 16
+      },
+      {
+        "index": 12,
+        "hour": 17
+      },
+      {
+        "index": 13,
+        "hour": 18
+      },
+      {
+        "index": 14,
+        "hour": 19
+      },
+      {
+        "index": 15,
+        "hour": 20
+      },
+      {
+        "index": 16,
+        "hour": 21
+      },
+      {
+        "index": 17,
+        "hour": 22
+      },
+      {
+        "index": 18,
+        "hour": 23
+      },
+      {
+        "index": 19,
+        "hour": 0
+      },
+      {
+        "index": 20,
+        "hour": 1
+      },
+      {
+        "index": 21,
+        "hour": 2
+      }
+    ]
+  }
+}
