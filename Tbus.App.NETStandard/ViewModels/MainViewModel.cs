@@ -12,16 +12,18 @@ namespace Tbus.App.NETStandard.ViewModels
     {
         private readonly IMainModel model;
 
-        private ReactivePropertySlim<ReadOnlyReactiveCollection<DayTableViewModel>> dayTableViewModels =
-            new ReactivePropertySlim<ReadOnlyReactiveCollection<DayTableViewModel>>();
+        private readonly ReactivePropertySlim<ReadOnlyReactiveCollection<DayTableViewModel>> dayTableViewModels
+            = new ReactivePropertySlim<ReadOnlyReactiveCollection<DayTableViewModel>>();
         public IReadOnlyReactiveProperty<ReadOnlyReactiveCollection<DayTableViewModel>> DayTableViewModels => dayTableViewModels;
 
-        private ReactivePropertySlim<bool> isLoading = new ReactivePropertySlim<bool>();
+        private readonly ReactivePropertySlim<bool> isLoading = new ReactivePropertySlim<bool>();
         public IReadOnlyReactiveProperty<bool> IsLoading => isLoading;
 
+        public ReactiveCommand<DayTableViewModel> PushDayTableViewCommand { get; } = new ReactiveCommand<DayTableViewModel>();
         public ReactiveCommand<string> ShowAlertCommand { get; } = new ReactiveCommand<string>();
         public AsyncReactiveCommand LoadCommand { get; } = new AsyncReactiveCommand();
 
+        public ReactiveCommand<DayTableViewModel> ItemSelectedCommand { get; } = new ReactiveCommand<DayTableViewModel>();
         public ReactiveCommand<DayTableViewModel> ItemAppearingCommand { get; } = new ReactiveCommand<DayTableViewModel>();
         public ReactiveCommand<DayTableViewModel> ItemDisappearingCommand { get; } = new ReactiveCommand<DayTableViewModel>();
 
@@ -47,6 +49,8 @@ namespace Tbus.App.NETStandard.ViewModels
                 .Subscribe(x => ShowAlertCommand.Execute(x.Message))
                 .AddTo(Disposables);
             LoadCommand.Subscribe(async x => await model.LoadAsync())
+                .AddTo(Disposables);
+            ItemSelectedCommand.Subscribe(x => PushDayTableViewCommand.Execute(x.Clone()))
                 .AddTo(Disposables);
             ItemAppearingCommand.Subscribe(x => x.SubscribeModel())
                 .AddTo(Disposables);

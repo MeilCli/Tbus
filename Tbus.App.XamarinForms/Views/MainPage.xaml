@@ -13,12 +13,18 @@
     <ListView ItemsSource="{Binding DayTableViewModels.Value}"
               IsRefreshing="{Binding IsLoading.Value}">
         <ListView.Behaviors>
-            <behaviorsPack:EventToCommandBehavior EventName="ItemAppearing" 
-                                                  Command="{Binding ItemAppearingCommand}"
-                                                  EventArgsPropertyPath="Item"/>
-            <behaviorsPack:EventToCommandBehavior EventName="ItemDisappearing" 
-                                                  Command="{Binding ItemDisappearingCommand}"
-                                                  EventArgsPropertyPath="Item"/>
+            <behaviorsPack:EventToCommandBehavior
+                EventName="ItemTapped"
+                Command="{Binding ItemSelectedCommand}"
+                EventArgsPropertyPath="Item"/>
+            <behaviorsPack:EventToCommandBehavior 
+                EventName="ItemAppearing" 
+                Command="{Binding ItemAppearingCommand}"
+                EventArgsPropertyPath="Item"/>
+            <behaviorsPack:EventToCommandBehavior
+                EventName="ItemDisappearing"                      
+                Command="{Binding ItemDisappearingCommand}"
+                EventArgsPropertyPath="Item"/>
         </ListView.Behaviors>
         <ListView.ItemTemplate>
             <DataTemplate>

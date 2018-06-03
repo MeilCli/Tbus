@@ -26,6 +26,8 @@ namespace Tbus.App.XamarinForms.Views
             viewModel.LoadCommand.Execute();
             viewModel.ShowAlertCommand.Subscribe(x => DisplayAlert("Erroer", x, "OK"))
                 .AddTo(disposables);
+            viewModel.PushDayTableViewCommand.Subscribe(x => Navigation.PushAsync(new DayTablePage(x)))
+                .AddTo(disposables);
         }
 
         protected override void OnDisappearing()
@@ -38,6 +40,7 @@ namespace Tbus.App.XamarinForms.Views
         ~MainPage()
         {
             // おまじない
+            viewModel.Dispose();
             disposables.Dispose();
         }
     }
