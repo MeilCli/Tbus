@@ -131,7 +131,11 @@ namespace Tbus.Parser.NETCore.Console
             int index = applicationDirectory.IndexOf("\\Tbus.Parser.NETCore.Console");
             string solutionPath = applicationDirectory.Substring(0, index);
             WriteLine($"solution path: {solutionPath}");
-            var outputDirectory = Directory.CreateDirectory($"{solutionPath}/docs");
+            var outputDirectory = Directory.CreateDirectory($"{solutionPath}/docs/timetable");
+            foreach (var deleteFile in outputDirectory.EnumerateFiles())
+            {
+                deleteFile.Delete();
+            }
             WriteLine($"output path: {outputDirectory.FullName}");
 
             var timeTableParser = new TimeTableParser();

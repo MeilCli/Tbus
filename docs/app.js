@@ -39,7 +39,7 @@ var Tbus;
         class TbusManager {
             constructor() {
                 this.httpClient = new Web.HttpClient();
-                this.host = "https://meilcli.github.io/Tbus/";
+                this.host = "https://meilcli.github.io/Tbus/timetable/";
             }
             async getNextBusAsync(fileName) {
                 var dayTime = await this.getTodayTableAsync(fileName);

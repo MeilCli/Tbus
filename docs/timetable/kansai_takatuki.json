@@ -1,10 +1,7 @@
 {
   "id": "関西大学 高槻方面行き",
-  "created_at": "2018-06-02T13:40:38.5355593+09:00",
-  "limited_time_option": {
-    "start_day": "2018-08-01T00:00:00+09:00",
-    "end_day": "2018-09-20T00:00:00+09:00"
-  },
+  "created_at": "2018-06-03T11:15:00.7474549+09:00",
+  "limited_time_option": null,
   "weekday_table": {
     "buses": [
       {
@@ -79,7 +76,17 @@
       },
       {
         "hour": 12,
+        "minute": 20,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
         "minute": 30,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 40,
         "destination": "11 JR高槻駅北（平安女学院大学経由）"
       },
       {
@@ -114,7 +121,17 @@
       },
       {
         "hour": 14,
+        "minute": 34,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
         "minute": 37,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 14,
+        "minute": 40,
         "destination": "11 JR高槻駅北（平安女学院大学経由）"
       },
       {
@@ -129,12 +146,37 @@
       },
       {
         "hour": 15,
+        "minute": 36,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 15,
         "minute": 51,
         "destination": "11 JR高槻駅北（平安女学院大学経由）"
       },
       {
         "hour": 16,
+        "minute": 10,
+        "destination": "直行・JR高槻駅北"
+      },
+      {
+        "hour": 16,
         "minute": 15,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 20,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 24,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 16,
+        "minute": 28,
         "destination": "11 JR高槻駅北（平安女学院大学経由）"
       },
       {
@@ -154,6 +196,11 @@
       },
       {
         "hour": 17,
+        "minute": 15,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 17,
         "minute": 25,
         "destination": "11 JR高槻駅北（平安女学院大学経由）"
       },
@@ -164,7 +211,22 @@
       },
       {
         "hour": 17,
+        "minute": 55,
+        "destination": "直行・JR高槻駅北"
+      },
+      {
+        "hour": 17,
         "minute": 59,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 18,
+        "minute": 3,
+        "destination": "11 JR高槻駅北（平安女学院大学経由）"
+      },
+      {
+        "hour": 18,
+        "minute": 8,
         "destination": "11 JR高槻駅北（平安女学院大学経由）"
       },
       {

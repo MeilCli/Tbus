@@ -36,7 +36,7 @@ namespace Tbus.Web {
 
     export class TbusManager {
         private httpClient = new HttpClient();
-        private host = "https://meilcli.github.io/Tbus/";
+        private host = "https://meilcli.github.io/Tbus/timetable/";
 
         async getNextBusAsync(fileName: string): Promise<Bus> {
             var dayTime = await this.getTodayTableAsync(fileName);

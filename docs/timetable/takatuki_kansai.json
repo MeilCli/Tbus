@@ -1,10 +1,7 @@
 {
   "id": "JR高槻駅北 関西大学方面行き",
-  "created_at": "2018-06-02T13:40:43.5879071+09:00",
-  "limited_time_option": {
-    "start_day": "2018-08-01T00:00:00+09:00",
-    "end_day": "2018-09-20T00:00:00+09:00"
-  },
+  "created_at": "2018-06-03T11:15:07.1465809+09:00",
+  "limited_time_option": null,
   "weekday_table": {
     "buses": [
       {
@@ -39,12 +36,47 @@
       },
       {
         "hour": 8,
+        "minute": 13,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 18,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
         "minute": 22,
         "destination": "70 関西大学（平安女学院大学経由）"
       },
       {
         "hour": 8,
+        "minute": 26,
+        "destination": "直行・関西大学"
+      },
+      {
+        "hour": 8,
+        "minute": 29,
+        "destination": "直行・関西大学"
+      },
+      {
+        "hour": 8,
+        "minute": 32,
+        "destination": "直行・関西大学"
+      },
+      {
+        "hour": 8,
         "minute": 35,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 8,
+        "minute": 40,
+        "destination": "直行・関西大学"
+      },
+      {
+        "hour": 8,
+        "minute": 45,
         "destination": "70 関西大学（平安女学院大学経由）"
       },
       {
@@ -59,7 +91,17 @@
       },
       {
         "hour": 9,
+        "minute": 25,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
         "minute": 35,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 9,
+        "minute": 47,
         "destination": "70 関西大学（平安女学院大学経由）"
       },
       {
@@ -69,12 +111,37 @@
       },
       {
         "hour": 10,
+        "minute": 0,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 5,
+        "destination": "直行・関西大学"
+      },
+      {
+        "hour": 10,
+        "minute": 10,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
         "minute": 15,
         "destination": "70 関西大学（平安女学院大学経由）"
       },
       {
         "hour": 10,
+        "minute": 25,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
         "minute": 35,
+        "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 10,
+        "minute": 43,
         "destination": "70 関西大学（平安女学院大学経由）"
       },
       {
@@ -111,6 +178,11 @@
         "hour": 12,
         "minute": 30,
         "destination": "70 関西大学（平安女学院大学経由）"
+      },
+      {
+        "hour": 12,
+        "minute": 35,
+        "destination": "直行・関西大学"
       },
       {
         "hour": 12,
