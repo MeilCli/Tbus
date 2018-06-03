@@ -138,3 +138,4 @@ using libraries:
 - [Json.NET](https://github.com/JamesNK/Newtonsoft.Json)
 - [ReactiveProperty](https://github.com/runceel/ReactiveProperty)
 - [Autofac](https://github.com/autofac/Autofac)
+- [Xamarin.Forms.BehaviorsPack](https://github.com/nuitsjp/Xamarin.Forms.BehaviorsPack)
