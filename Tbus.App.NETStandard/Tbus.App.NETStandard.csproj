@@ -46,6 +46,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="ReactiveProperty" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Tbus.Calendar.NETStandard\Tbus.Calendar.NETStandard.csproj" />
     <ProjectReference Include="..\Tbus.Parser.NETStandard\Tbus.Parser.NETStandard.csproj" />
   </ItemGroup>
