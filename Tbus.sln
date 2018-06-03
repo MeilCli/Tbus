@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tbus.Calendar.NETStandard", "Tbus.Calendar.NETStandard\Tbus.Calendar.NETStandard.csproj", "{F0E45F69-BB22-4A76-8A2E-4BFF35F63656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tbus.Calendar.NETCore.Console", "Tbus.Calendar.NETCore.Console\Tbus.Calendar.NETCore.Console.csproj", "{F5A0B8C8-9AD8-4749-AF44-B06AB0813660}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0E45F69-BB22-4A76-8A2E-4BFF35F63656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E45F69-BB22-4A76-8A2E-4BFF35F63656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E45F69-BB22-4A76-8A2E-4BFF35F63656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E45F69-BB22-4A76-8A2E-4BFF35F63656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A0B8C8-9AD8-4749-AF44-B06AB0813660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A0B8C8-9AD8-4749-AF44-B06AB0813660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A0B8C8-9AD8-4749-AF44-B06AB0813660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A0B8C8-9AD8-4749-AF44-B06AB0813660}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
