@@ -1,4 +1,5 @@
-﻿using Reactive.Bindings.Extensions;
+﻿using Autofac;
+using Reactive.Bindings.Extensions;
 using System;
 using System.Reactive.Disposables;
 using System.Reactive.Linq;
@@ -15,7 +16,7 @@ namespace Tbus.App.XamarinForms.Views
         public MainPage()
         {
             InitializeComponent();
-            viewModel = new MainViewModel();
+            viewModel = App.Container.Resolve<MainViewModel>();
             BindingContext = viewModel;
         }
 
