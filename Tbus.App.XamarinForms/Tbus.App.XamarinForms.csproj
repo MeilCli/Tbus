@@ -17,6 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Tbus.App.NETStandard\Tbus.App.NETStandard.csproj" />
+    <ProjectReference Include="..\Tbus.App.NETStandard\Tbus.App.NETStandard.csproj" />
   </ItemGroup>
 </Project>
