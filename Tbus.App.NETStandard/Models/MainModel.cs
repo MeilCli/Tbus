@@ -33,6 +33,9 @@ namespace Tbus.App.NETStandard.Models
             {
                 IsLoading = true;
                 var todayTimeTables = await timeTableRepository.GetTodayTimeTablesAsync();
+
+                dayTableModels.Clear();
+
                 foreach (var todayTimeTable in todayTimeTables)
                 {
                     dayTableModels.Add(new DayTableModel(todayTimeTable.id, todayTimeTable.dayTable));
