@@ -4,10 +4,17 @@
 [手抜きWebサイト](https://meilcli.github.io/Tbus/)
 
 ## データ
-Github PagesにJsonとして置いてます。  
+Github PagesにJsonとして置いてます。
+### 時刻表
+URLs
+- [https://github.com/MeilCli/Tbus/tree/master/docs/timetable](https://github.com/MeilCli/Tbus/tree/master/docs/timetable)
+- https://meilcli.github.io/Tbus/timetable/
+  - Raw Data
+  - 実際にアクセスする際はファイル名もURLに含めてください
+
 データの形はテーブルにしてますが、以下の2つのファイルを見てもわかると思います。  
-- [kansai_takatuki.json](docs/kansai_takatuki.json)
-- [kansai_takatuki.limited2.json](docs/kansai_takatuki.limited2.json)
+- [kansai_takatuki.json](docs/timetable/kansai_takatuki.json)
+- [kansai_takatuki.limited2.json](docs/timetable/kansai_takatuki.limited2.json)
 
 |Key||||Type|Value|
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -42,11 +49,47 @@ Github PagesにJsonとして置いてます。
 |||index||int|順番|
 |||hour||int|時|
 
+### カレンダー
+URLs
+- [https://github.com/MeilCli/Tbus/tree/master/docs/calendar](https://github.com/MeilCli/Tbus/tree/master/docs/calendar)
+- https://meilcli.github.io/Tbus/calendar/
+  - Raw Data
+  - 実際にアクセスする際はファイル名もURLに含めてください
+
+データの形はテーブルにしてますが、以下のファイルを見たほうがわかると思います。  
+- [2019.json](docs/calendar/2019.json)
+
+|Key||Type|Value|
+|:--:|:--:|:--:|:--:|
+|||Array|その年のカレンダー|
+||date|DateTime|日付|
+||day_type|int|0 = 平日, 1 = 土曜日, 2 = 日曜日, 3 = 祝日|
+
+### 祝日
+URLs
+- [https://github.com/MeilCli/Tbus/tree/master/docs/holiday](https://github.com/MeilCli/Tbus/tree/master/docs/holiday)
+- https://meilcli.github.io/Tbus/holiday/
+  - Raw Data
+  - 実際にアクセスする際はファイル名もURLに含めてください
+
+データの形はテーブルにしてますが、以下のファイルを見たほうがわかると思います。  
+- [2019.json](docs/holiday/2019.json)
+
+|Type|Value|
+|:--:|:--:|
+|DateTime[]|祝日の日付|
+
 ## ビルド
 必要な環境
 - Visual Studio 2017
 - C# 7.3
 - TypeScript 2.9
+
+### Tbus.Calendar.NETCore.Condole
+カレンダー・祝日生成コンソールアプリケーション
+
+実行に必要な環境
+- .NET Core 2.0
 
 ### Tbus.Parser.NETCore.Console
 時刻表生成コンソールアプリケーション  
