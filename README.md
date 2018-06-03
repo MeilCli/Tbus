@@ -85,6 +85,33 @@ URLs
 - C# 7.3
 - TypeScript 2.9
 
+### Tbus.App.XamarinForms.Android
+Androidアプリケーション
+
+ビルドに必要な環境
+- Xamarin.Android
+
+実行に必要な環境
+- Android EmulatorまたはAndroid実機
+
+### Tbus.App.XamarinForms.iOS
+iOSアプリケーション
+
+ビルドに必要な環境
+- Xamarin.iOS
+
+実行に必要な環境
+- iOS EmulatorまたはiOS実機
+
+### Tbus.App.XamarinForms.UWP
+UWPアプリケーション
+
+ビルドに必要な環境
+- UWP SDK
+
+実行に必要な環境
+- Windows 10 mobile EmulatorまたはWindows 10搭載端末
+
 ### Tbus.Calendar.NETCore.Condole
 カレンダー・祝日生成コンソールアプリケーション
 
