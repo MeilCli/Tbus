@@ -13,8 +13,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AngleSharp" Version="0.9.9.2" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.446417" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Tbus.App.NETStandard\Tbus.App.NETStandard.csproj" />
+  </ItemGroup>
 </Project>
