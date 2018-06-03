@@ -7,7 +7,7 @@ namespace Tbus.App.NETStandard.ViewModels
 {
     public abstract class BaseViewModel : IViewModel
     {
-        private protected CompositeDisposable Disposables;
+        private protected CompositeDisposable Disposables = new CompositeDisposable();
 
         public abstract void SubscribeModel();
         public abstract void UnSubscribeModel();
