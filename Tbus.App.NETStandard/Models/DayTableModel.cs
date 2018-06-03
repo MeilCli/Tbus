@@ -47,7 +47,7 @@ namespace Tbus.App.NETStandard.Models
             {
                 int time = DateTime.Now.Hour * 100 + DateTime.Now.Minute;
                 Bus bus = dayTable.Buses.Where(_ => day == DateTime.Now.Day)
-                    .Where(x => time <= x.Hour * 100 + x.Minute)
+                    .Where(x => time < x.Hour * 100 + x.Minute)
                     .FirstOrDefault();
                 if (bus != null)
                 {
