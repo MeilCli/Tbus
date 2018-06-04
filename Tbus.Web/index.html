@@ -17,6 +17,7 @@
         <p>現時点の機能は以下の通りです。</p>
         <ul>
             <li>主要バス停の直近の発車時間表示</li>
+            <li>主要バス停の今日の時刻表表示</li>
             <li>平日・土曜・日曜/祝日ダイヤ</li>
             <li>特殊ダイヤ(データがあれば)</li>
         </ul>
@@ -26,64 +27,10 @@
             <li>24時以降の深夜バス</li>
         </ul>
 
-        <div class="card">
-            <h5 class="card-header">直近の発着時間</h5>
-            <div class="card-body">
-                <ul class="nav nav-pills mb-3" id="nav-tab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="nav-takatuki-tab" data-toggle="pill" href="#nav-takatuki" role="tab" aria-controls="nav-takatuki"
-                           aria-selected="true">JR高槻駅北</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-tonda-tab" data-toggle="pill" href="#nav-tonda" role="tab" aria-controls="nav-tonda" aria-selected="false">JR富田駅</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-kansai-tab" data-toggle="pill" href="#nav-kansai" role="tab" aria-controls="nav-kansai" aria-selected="false">関西大学</a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-takatuki" role="tabpanel" aria-labelledby="nav-takatuki-tab">
-                        <ul class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="nav-takatuki-kansai-tab" data-toggle="pill" href="#nav-takatuki-kansai" role="tab" aria-controls="nav-takatuki-kansai"
-                                   aria-selected="true">関西大学方面</a>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="nav-takatuki-kansai" role="tabpanel" aria-labelledby="nav-takatuki-kansai-tab"></div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav-tonda" role="tabpanel" aria-labelledby="nav-tonda-tab">
-                        <ul class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="nav-tonda-kansai-tab" data-toggle="pill" href="#nav-tonda-kansai" role="tab" aria-controls="nav-tonda-kansai"
-                                   aria-selected="true">関西大学方面</a>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="nav-tonda-kansai" role="tabpanel" aria-labelledby="nav-tonda-kansai-tab"></div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav-kansai" role="tabpanel" aria-labelledby="nav-kansai-tab">
-                        <ul class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="nav-kansai-takatuki-tab" data-toggle="pill" href="#nav-kansai-takatuki" role="tab" aria-controls="nav-kansai-takatuki"
-                                   aria-selected="true">JR高槻駅北方面</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="nav-kansai-tonda-tab" data-toggle="pill" href="#nav-kansai-tonda" role="tab" aria-controls="nav-kansai-tonda"
-                                   aria-selected="true">JR富田駅方面</a>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="nav-kansai-takatuki" role="tabpanel" aria-labelledby="nav-kansai-takatuki-tab"></div>
-                            <div class="tab-pane fade" id="nav-kansai-tonda" role="tabpanel" aria-labelledby="nav-kansai-tonda-tab"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        <div id="content1"></div>
+        <br />
+        <div id="content2"></div>
+        <br />
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

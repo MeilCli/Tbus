@@ -71,6 +71,13 @@ namespace Tbus.Web {
             return result;
         }
 
+        async getBusesAsync(): Promise<Bus[]> {
+            if (this.dayTable == null) {
+                this.dayTable = await this.getTodayTableAsync(this.fileName);
+            }
+            return this.dayTable.buses;
+        }
+
         private async getTodayTableAsync(fileName: string): Promise<DayTable> {
             var defaultTimeTable = await this.getTimeTableAsync(`${this.host}${fileName}.json`);
             var limitedTimeTable: TimeTable[] = [];
