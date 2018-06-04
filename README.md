@@ -1,7 +1,7 @@
 ﻿# Tbus
 高槻キャンパスのバスの時刻表を表示できるようにする奴  
 頑張れば市営バスすべての時刻表に対応できる  
-[手抜きWebサイト](https://meilcli.github.io/Tbus/)と手抜きアプリ(Android, iOS, UWP)を用意してるのでビルドして遊んでみてください
+[Webサイト](https://meilcli.github.io/Tbus/)と手抜きアプリ(Android, iOS, UWP)を用意してるのでビルドして遊んでみてください
 
 ## データ
 Github PagesにJsonとして置いてます。
