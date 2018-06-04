@@ -37,26 +37,41 @@ namespace Tbus.Web {
     export class TbusManager {
         private httpClient = new HttpClient();
         private host = "https://meilcli.github.io/Tbus/timetable/";
+        private holidayHost = "https://meilcli.github.io/Tbus/holiday/";
+        private dayTable: DayTable = null;
+        private isHoliday: boolean = null;
+        private fileName: string;
 
-        async getNextBusAsync(fileName: string): Promise<Bus> {
-            var dayTime = await this.getTodayTableAsync(fileName);
+        constructor(fileName: string) {
+            this.fileName = fileName;
+        }
 
-            var result: Bus = null;
+        async getNextBusAsync(): Promise<Bus[]> {
+            if (this.dayTable == null) {
+                this.dayTable = await this.getTodayTableAsync(this.fileName);
+            }
+
+            var result: Bus[] = [];
+            var resultIndex = 0;
+
             var date = new Date();
             var time = date.getHours() * 100 + date.getMinutes();
-            for (var i = 0; i < dayTime.buses.length; i++) {
-                var bus = dayTime.buses[i];
-                if (bus.hour * 100 + bus.minute < time) {
+            for (var i = 0; i < this.dayTable.buses.length; i++) {
+                var bus = this.dayTable.buses[i];
+                if (bus.hour * 100 + bus.minute <= time) {
                     continue;
                 }
-                result = bus;
-                break;
+                result[resultIndex] = bus;
+                resultIndex++;
+                if (result.length == 3) {
+                    break;
+                }
             }
 
             return result;
         }
 
-        async getTodayTableAsync(fileName: string): Promise<DayTable> {
+        private async getTodayTableAsync(fileName: string): Promise<DayTable> {
             var defaultTimeTable = await this.getTimeTableAsync(`${this.host}${fileName}.json`);
             var limitedTimeTable: TimeTable[] = [];
             for (var i = 0; i < 10; i++) {
@@ -68,10 +83,10 @@ namespace Tbus.Web {
                 limitedTimeTable[i] = timeTable;
             }
 
-            return this.getTodayTimeTable(defaultTimeTable, limitedTimeTable);
+            return await this.getTodayTimeTableAsync(defaultTimeTable, limitedTimeTable);
         }
 
-        private getTodayTimeTable(defaultTimeTable: TimeTable, limitedTimeTable: TimeTable[]): DayTable {
+        private async getTodayTimeTableAsync(defaultTimeTable: TimeTable, limitedTimeTable: TimeTable[]): Promise<DayTable> {
             var date = new Date();
             for (var i = 0; i < limitedTimeTable.length; i++) {
                 var iso = date.toISOString()
@@ -80,6 +95,10 @@ namespace Tbus.Web {
                 if (dayTime != null) {
                     return dayTime;
                 }
+            }
+
+            if (this.isHoliday == null) {
+                this.isHoliday = await this.isHolidayAsync();
             }
 
             for (var i = 0; i < limitedTimeTable.length; i++) {
@@ -93,7 +112,7 @@ namespace Tbus.Web {
                 }
 
                 var dayTable: DayTable
-                if (date.getDay() == 0) {
+                if (date.getDay() == 0 || this.isHoliday) {
                     // 日曜日
                     dayTable = limitedTimeTable[i].sunday_table;
                 } else if (date.getDay() == 6) {
@@ -107,7 +126,7 @@ namespace Tbus.Web {
                 }
             }
 
-            if (date.getDay() == 0) {
+            if (date.getDay() == 0 || this.isHoliday) {
                 // 日曜日
                 return defaultTimeTable.sunday_table;
             }
@@ -135,6 +154,32 @@ namespace Tbus.Web {
 
         private getDayTime(date: Date): number {
             return date.getFullYear() * 10000 + date.getMonth() * 100 + date.getDate();
+        }
+
+        private async isHolidayAsync(): Promise<boolean> {
+            var date = new Date();
+            var year = date.getFullYear();
+            var month = date.getMonth();
+            var day = date.getDate();
+
+            var httpRequest = new HttpRequest(`${this.holidayHost}${year}.json`);
+            var response = await this.httpClient.getAsync(httpRequest);
+            if (response.status != 200) {
+                return false;
+            }
+            var holidays: Date[] = JSON.parse(response.content, (key, value) => {
+                if (typeof (value) == "string" && value.match(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\+\d{2}:\d{2}$/)) {
+                    return new Date(Date.parse(value as string));
+                }
+                return value;
+            });
+
+            for (var i = 0; i < holidays.length; i++) {
+                if (holidays[i].getMonth() == month && holidays[i].getDate() == day) {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }

@@ -1,16 +1,97 @@
-﻿<!DOCTYPE html>
-
+﻿<!doctype html>
 <html lang="ja">
+
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
     <title>Tbus</title>
     <script src="app.js"></script>
 </head>
+
 <body>
-    <h1>Tbus Web App</h1>
+    <div class="container">
+        <h1>Tbus Web App</h1>
+        <p>このサイトは<a href="https://github.com/MeilCli/Tbus/blob/master/LICENSE.txt">MIT License</a>下で<a href="https://github.com/MeilCli/Tbus">オープンソース</a>で公開されています。</p>
+        <p>現時点の機能は以下の通りです。</p>
+        <ul>
+            <li>主要バス停の直近の発車時間表示</li>
+            <li>平日・土曜・日曜/祝日ダイヤ</li>
+            <li>特殊ダイヤ(データがあれば)</li>
+        </ul>
+        <p>未対応機能は以下の通りです。</p>
+        <ul>
+            <li>日付変更処理</li>
+            <li>24時以降の深夜バス</li>
+        </ul>
 
-    <p>はっきり言って手抜きです、時刻更新はリロードしてどうぞ。</p>
+        <div class="card">
+            <h5 class="card-header">直近の発着時間</h5>
+            <div class="card-body">
+                <ul class="nav nav-pills mb-3" id="nav-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="nav-takatuki-tab" data-toggle="pill" href="#nav-takatuki" role="tab" aria-controls="nav-takatuki"
+                           aria-selected="true">JR高槻駅北</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-tonda-tab" data-toggle="pill" href="#nav-tonda" role="tab" aria-controls="nav-tonda" aria-selected="false">JR富田駅</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-kansai-tab" data-toggle="pill" href="#nav-kansai" role="tab" aria-controls="nav-kansai" aria-selected="false">関西大学</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-takatuki" role="tabpanel" aria-labelledby="nav-takatuki-tab">
+                        <ul class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="nav-takatuki-kansai-tab" data-toggle="pill" href="#nav-takatuki-kansai" role="tab" aria-controls="nav-takatuki-kansai"
+                                   aria-selected="true">関西大学方面</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-takatuki-kansai" role="tabpanel" aria-labelledby="nav-takatuki-kansai-tab"></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-tonda" role="tabpanel" aria-labelledby="nav-tonda-tab">
+                        <ul class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="nav-tonda-kansai-tab" data-toggle="pill" href="#nav-tonda-kansai" role="tab" aria-controls="nav-tonda-kansai"
+                                   aria-selected="true">関西大学方面</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-tonda-kansai" role="tabpanel" aria-labelledby="nav-tonda-kansai-tab"></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-kansai" role="tabpanel" aria-labelledby="nav-kansai-tab">
+                        <ul class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="nav-kansai-takatuki-tab" data-toggle="pill" href="#nav-kansai-takatuki" role="tab" aria-controls="nav-kansai-takatuki"
+                                   aria-selected="true">JR高槻駅北方面</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="nav-kansai-tonda-tab" data-toggle="pill" href="#nav-kansai-tonda" role="tab" aria-controls="nav-kansai-tonda"
+                                   aria-selected="true">JR富田駅方面</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-kansai-takatuki" role="tabpanel" aria-labelledby="nav-kansai-takatuki-tab"></div>
+                            <div class="tab-pane fade" id="nav-kansai-tonda" role="tabpanel" aria-labelledby="nav-kansai-tonda-tab"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div id="content"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>
