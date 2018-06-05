@@ -170,7 +170,7 @@ function createCard(title: string, num: number): string {
 }
 
 window.onload = () => {
-    document.getElementById('content1').innerHTML = createCard("直近の発着時間", 1);
+    document.getElementById('content1').innerHTML = createCard("直近の発車時間", 1);
     document.getElementById('content2').innerHTML = createCard("今日の時刻表", 2);
 
     {
