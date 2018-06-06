@@ -24,11 +24,11 @@ namespace Tbus.App.XamarinForms.Views
         {
             base.OnAppearing();
             viewModel.SubscribeModel();
-            viewModel.LoadCommand.Execute();
             viewModel.ShowAlertCommand.Subscribe(x => DisplayAlert("Erroer", x, "OK"))
                 .AddTo(disposables);
             viewModel.PushDayTableViewCommand.Subscribe(x => Navigation.PushAsync(new DayTablePage(x)))
                 .AddTo(disposables);
+            viewModel.LoadCommand.Execute();
         }
 
         protected override void OnDisappearing()
