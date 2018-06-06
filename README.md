@@ -112,6 +112,15 @@ UWPアプリケーション
 実行に必要な環境
 - Windows 10 mobile EmulatorまたはWindows 10搭載端末
 
+### Tbus.App.XamarinForms.WPF
+WPFアプリケーション
+
+ビルドに必要な環境
+- .NET Framework 4.6.1 SDK
+
+実行に必要な環境
+- .NET Framework 4.6.1
+
 ### Tbus.Calendar.NETCore.Condole
 カレンダー・祝日生成コンソールアプリケーション
 
