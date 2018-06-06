@@ -19,7 +19,7 @@ namespace Tbus.App.NETStandard.ViewModels
         private readonly ReactivePropertySlim<bool> isLoading = new ReactivePropertySlim<bool>();
         public IReadOnlyReactiveProperty<bool> IsLoading => isLoading;
 
-        public ReactiveCommand<DayTableViewModel> PushDayTableViewCommand { get; } = new ReactiveCommand<DayTableViewModel>();
+        public AsyncReactiveCommand<DayTableViewModel> PushDayTableViewCommand { get; } = new AsyncReactiveCommand<DayTableViewModel>();
         public ReactiveCommand<string> ShowAlertCommand { get; } = new ReactiveCommand<string>();
         public AsyncReactiveCommand LoadCommand { get; } = new AsyncReactiveCommand();
 

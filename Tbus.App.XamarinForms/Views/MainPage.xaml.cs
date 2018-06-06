@@ -4,6 +4,7 @@ using System;
 using System.Reactive.Disposables;
 using System.Reactive.Linq;
 using Tbus.App.NETStandard.ViewModels;
+using Tbus.App.XamarinForms.Extensions;
 using Xamarin.Forms;
 
 namespace Tbus.App.XamarinForms.Views
@@ -26,7 +27,7 @@ namespace Tbus.App.XamarinForms.Views
             viewModel.SubscribeModel();
             viewModel.ShowAlertCommand.Subscribe(x => DisplayAlert("Erroer", x, "OK"))
                 .AddTo(disposables);
-            viewModel.PushDayTableViewCommand.Subscribe(x => Navigation.PushAsync(new DayTablePage(x)))
+            viewModel.PushDayTableViewCommand.Subscribe(async x => await Navigation.PushPageAsync(new DayTablePage(x)))
                 .AddTo(disposables);
             viewModel.LoadCommand.Execute();
         }
