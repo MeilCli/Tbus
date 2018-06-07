@@ -4,6 +4,10 @@
     {
         string Id { get; }
 
+        string Station { get; }
+
+        string Direction { get; }
+
         string Time { get; }
 
         string Destination { get; }

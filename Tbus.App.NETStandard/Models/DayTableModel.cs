@@ -14,6 +14,10 @@ namespace Tbus.App.NETStandard.Models
 
         public string Id { get; }
 
+        public string Station { get; }
+
+        public string Direction { get; }
+
         private string _time;
         public string Time {
             get => _time;
@@ -35,12 +39,14 @@ namespace Tbus.App.NETStandard.Models
         public DayTableModel(string id, DayTable dayTable)
         {
             Id = id;
+            string[] ar = id.Split(' ');
+            Station = 1 <= ar.Length ? ar[0] ?? string.Empty : string.Empty;
+            Direction = 2 <= ar.Length ? ar[1] ?? string.Empty : string.Empty;
             this.dayTable = dayTable;
         }
 
         public async void StartCounter()
         {
-
             int day = DateTime.Now.Day;
             isRequestRunning = true;
             while (isRequestRunning)

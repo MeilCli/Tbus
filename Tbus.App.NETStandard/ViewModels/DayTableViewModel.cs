@@ -13,6 +13,12 @@ namespace Tbus.App.NETStandard.ViewModels
         private readonly ReactivePropertySlim<string> id = new ReactivePropertySlim<string>(string.Empty);
         public IReadOnlyReactiveProperty<string> Id => id;
 
+        private readonly ReactivePropertySlim<string> station = new ReactivePropertySlim<string>(string.Empty);
+        public IReadOnlyReactiveProperty<string> Station => station;
+
+        private readonly ReactivePropertySlim<string> direction = new ReactivePropertySlim<string>(string.Empty);
+        public IReadOnlyReactiveProperty<string> Direction => direction;
+
         private readonly ReactivePropertySlim<string> time = new ReactivePropertySlim<string>(string.Empty);
         public IReadOnlyReactiveProperty<string> Time => time;
 
@@ -45,6 +51,12 @@ namespace Tbus.App.NETStandard.ViewModels
         {
             model.ObserveProperty(x => x.Id)
                 .Subscribe(x => id.Value = x)
+                .AddTo(Disposables);
+            model.ObserveProperty(x => x.Station)
+                .Subscribe(x => station.Value = x)
+                .AddTo(Disposables);
+            model.ObserveProperty(x => x.Direction)
+                .Subscribe(x => direction.Value = x)
                 .AddTo(Disposables);
             model.ObserveProperty(x => x.Time)
                 .Subscribe(x => time.Value = x)

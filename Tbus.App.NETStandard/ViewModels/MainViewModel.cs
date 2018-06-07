@@ -1,6 +1,9 @@
 ﻿using Reactive.Bindings;
 using Reactive.Bindings.Extensions;
 using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
 using System.Reactive.Linq;
 using Tbus.App.NETStandard.Events;
 using Tbus.App.NETStandard.Models;
@@ -12,9 +15,8 @@ namespace Tbus.App.NETStandard.ViewModels
     {
         private readonly IMainModel model;
 
-        private readonly ReactivePropertySlim<ReadOnlyReactiveCollection<DayTableViewModel>> dayTableViewModels
-            = new ReactivePropertySlim<ReadOnlyReactiveCollection<DayTableViewModel>>();
-        public IReadOnlyReactiveProperty<ReadOnlyReactiveCollection<DayTableViewModel>> DayTableViewModels => dayTableViewModels;
+        public ReactiveCollection<MainGroupListViewModel> DayTableViewModels { get; }
+            = new ReactiveCollection<MainGroupListViewModel>();
 
         private readonly ReactivePropertySlim<bool> isLoading = new ReactivePropertySlim<bool>();
         public IReadOnlyReactiveProperty<bool> IsLoading => isLoading;
@@ -25,8 +27,8 @@ namespace Tbus.App.NETStandard.ViewModels
         public AsyncReactiveCommand LoadIfEmptyCommand { get; } = new AsyncReactiveCommand();
 
         public ReactiveCommand<DayTableViewModel> ItemSelectedCommand { get; } = new ReactiveCommand<DayTableViewModel>();
-        public ReactiveCommand<DayTableViewModel> ItemAppearingCommand { get; } = new ReactiveCommand<DayTableViewModel>();
-        public ReactiveCommand<DayTableViewModel> ItemDisappearingCommand { get; } = new ReactiveCommand<DayTableViewModel>();
+        public ReactiveCommand<IViewModel> ItemAppearingCommand { get; } = new ReactiveCommand<IViewModel>();
+        public ReactiveCommand<IViewModel> ItemDisappearingCommand { get; } = new ReactiveCommand<IViewModel>();
 
         public MainViewModel()
         {
@@ -40,7 +42,22 @@ namespace Tbus.App.NETStandard.ViewModels
 
         public override void SubscribeModel()
         {
-            dayTableViewModels.Value = model.DayTableModels.ToReadOnlyReactiveCollection(x => new DayTableViewModel(x))
+            model.DayTableModels.ObserveAddChanged()
+                .Subscribe(x =>
+                {
+                    MainGroupListViewModel sameTitleViewModel = DayTableViewModels.FirstOrDefault(y => y.Title == x.Station);
+                    if (sameTitleViewModel != null)
+                    {
+                        sameTitleViewModel.Add(new DayTableViewModel(x));
+                    }
+                    else
+                    {
+                        DayTableViewModels.Add(new MainGroupListViewModel(x.Station) { new DayTableViewModel(x) });
+                    }
+                })
+                .AddTo(Disposables);
+            model.DayTableModels.ObserveResetChanged()
+                .Subscribe(x => DayTableViewModels.Clear())
                 .AddTo(Disposables);
             model.ObserveProperty(x => x.IsLoading)
                 .Subscribe(x => isLoading.Value = x)
@@ -64,6 +81,16 @@ namespace Tbus.App.NETStandard.ViewModels
         public override void UnSubscribeModel()
         {
             Disposables.Clear();
+        }
+    }
+
+    public class MainGroupListViewModel : ObservableCollection<DayTableViewModel>
+    {
+        public string Title { get; }
+
+        public MainGroupListViewModel(string title)
+        {
+            Title = title;
         }
     }
 }

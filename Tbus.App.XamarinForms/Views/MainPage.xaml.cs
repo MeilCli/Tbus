@@ -54,5 +54,21 @@ namespace Tbus.App.XamarinForms.Views
             viewModel.Dispose();
             disposables.Dispose();
         }
+
+        private void ListView_ItemAppearing(object sender, ItemVisibilityEventArgs e)
+        {
+            if (e.Item is DayTableViewModel dayTableViewModel)
+            {
+                viewModel.ItemAppearingCommand.Execute(dayTableViewModel);
+            }
+        }
+
+        private void ListView_ItemDisappearing(object sender, ItemVisibilityEventArgs e)
+        {
+            if (e.Item is DayTableViewModel dayTableViewModel)
+            {
+                viewModel.ItemDisappearingCommand.Execute(dayTableViewModel);
+            }
+        }
     }
 }

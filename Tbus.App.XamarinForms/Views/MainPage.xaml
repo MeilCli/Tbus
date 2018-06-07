@@ -10,27 +10,20 @@
         <vm:MainViewModel/>
     </ContentPage.BindingContext>
 
-    <ListView ItemsSource="{Binding DayTableViewModels.Value}"
+    <ListView ItemsSource="{Binding DayTableViewModels}"
               IsRefreshing="{Binding IsLoading.Value}"
               IsPullToRefreshEnabled="True"
-              RefreshCommand="{Binding LoadCommand}">
+              RefreshCommand="{Binding LoadCommand}"
+              IsGroupingEnabled="True"
+              GroupDisplayBinding="{Binding Title}"
+              ItemAppearing="ListView_ItemAppearing"
+              ItemDisappearing="ListView_ItemDisappearing">
         <ListView.Behaviors>
-            <behaviorsPack:EventToCommandBehavior
-                EventName="ItemTapped"
-                Command="{Binding ItemSelectedCommand}"
-                EventArgsPropertyPath="Item"/>
-            <behaviorsPack:EventToCommandBehavior 
-                EventName="ItemAppearing" 
-                Command="{Binding ItemAppearingCommand}"
-                EventArgsPropertyPath="Item"/>
-            <behaviorsPack:EventToCommandBehavior
-                EventName="ItemDisappearing"                      
-                Command="{Binding ItemDisappearingCommand}"
-                EventArgsPropertyPath="Item"/>
+            <behaviorsPack:SelectedItemBehavior Command="{Binding ItemSelectedCommand}"/>
         </ListView.Behaviors>
         <ListView.ItemTemplate>
             <DataTemplate>
-                <TextCell Text="{Binding Id.Value}"
+                <TextCell Text="{Binding Direction.Value}"
                           TextColor="Black"/>
             </DataTemplate>
         </ListView.ItemTemplate>
