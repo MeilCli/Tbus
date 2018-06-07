@@ -27,6 +27,15 @@ namespace Tbus.App.NETStandard.Models
             DayTableModels = new ReadOnlyObservableCollection<DayTableModel>(dayTableModels);
         }
 
+        public async ValueTask LoadIfEmptyAsync()
+        {
+            if (dayTableModels.Count != 0)
+            {
+                return;
+            }
+            await LoadAsync();
+        }
+
         public async Task LoadAsync()
         {
             try

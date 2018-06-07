@@ -22,6 +22,7 @@ namespace Tbus.App.NETStandard.ViewModels
         public AsyncReactiveCommand<DayTableViewModel> PushDayTableViewCommand { get; } = new AsyncReactiveCommand<DayTableViewModel>();
         public ReactiveCommand<string> ShowAlertCommand { get; } = new ReactiveCommand<string>();
         public AsyncReactiveCommand LoadCommand { get; } = new AsyncReactiveCommand();
+        public AsyncReactiveCommand LoadIfEmptyCommand { get; } = new AsyncReactiveCommand();
 
         public ReactiveCommand<DayTableViewModel> ItemSelectedCommand { get; } = new ReactiveCommand<DayTableViewModel>();
         public ReactiveCommand<DayTableViewModel> ItemAppearingCommand { get; } = new ReactiveCommand<DayTableViewModel>();
@@ -48,7 +49,9 @@ namespace Tbus.App.NETStandard.ViewModels
                 .Select(x => x.EventArgs)
                 .Subscribe(x => ShowAlertCommand.Execute(x.Message))
                 .AddTo(Disposables);
-            LoadCommand.Subscribe(async x => await model.LoadAsync())
+            LoadCommand.Subscribe(async _ => await model.LoadAsync())
+                .AddTo(Disposables);
+            LoadIfEmptyCommand.Subscribe(async _ => await model.LoadIfEmptyAsync())
                 .AddTo(Disposables);
             ItemSelectedCommand.Subscribe(x => PushDayTableViewCommand.Execute(x.Clone()))
                 .AddTo(Disposables);

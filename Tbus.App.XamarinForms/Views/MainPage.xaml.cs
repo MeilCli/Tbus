@@ -19,6 +19,15 @@ namespace Tbus.App.XamarinForms.Views
             InitializeComponent();
             viewModel = App.Container.Resolve<MainViewModel>();
             BindingContext = viewModel;
+            if (Device.RuntimePlatform == Device.UWP || Device.RuntimePlatform == Device.WPF)
+            {
+                ToolbarItems.Add(new ToolbarItem
+                {
+                    Text = "Load",
+                    Command = viewModel.LoadCommand,
+                    CommandParameter = string.Empty
+                });
+            }
         }
 
         protected override void OnAppearing()
@@ -29,7 +38,7 @@ namespace Tbus.App.XamarinForms.Views
                 .AddTo(disposables);
             viewModel.PushDayTableViewCommand.Subscribe(async x => await Navigation.PushPageAsync(new DayTablePage(x)))
                 .AddTo(disposables);
-            viewModel.LoadCommand.Execute();
+            viewModel.LoadIfEmptyCommand.Execute();
         }
 
         protected override void OnDisappearing()

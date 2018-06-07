@@ -13,6 +13,8 @@ namespace Tbus.App.NETStandard.Models
 
         ReadOnlyObservableCollection<DayTableModel> DayTableModels { get; }
 
+        ValueTask LoadIfEmptyAsync();
+
         Task LoadAsync();
     }
 }
