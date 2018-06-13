@@ -82,6 +82,18 @@ namespace Tbus.Calendar.NETStandard
 
 
             (int month, int day) monthAndDay = (month, day);
+            if (year == 2020)
+            {
+                // オリンピックで祝日が移動になる
+                if (monthAndDay == (7, 20) || monthAndDay == (8, 11) || monthAndDay == (10, 12))
+                {
+                    return false;
+                }
+                if (monthAndDay == (7, 23) || monthAndDay == (7, 24) || monthAndDay == (8, 10))
+                {
+                    return true;
+                }
+            }
             if (monthAndDay == (1, 1) || monthAndDay == (2, 11) || monthAndDay == (4, 29)
                 || monthAndDay == (5, 3) || monthAndDay == (5, 4) || monthAndDay == (5, 5)
                 || monthAndDay == (8, 11) || monthAndDay == (11, 3) || monthAndDay == (11, 23))
